@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wisata Lombok</string>
+    <string name="action_settings">Keluar</string>
+    <!-- Strings used for content -->
+    <string name="my_name">Mita Nadia Sukmawanti</string>
+    <string name="prodi">Sistem Informasi</string>
+    <string name="semester">7 (Tujuh)</string>
+
+</resources>

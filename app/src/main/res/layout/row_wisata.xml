@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/row_nama_destinasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="Kuta Mandalika" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Daerah : " />
+
+        <TextView
+            android:id="@+id/row_daerah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="italic"
+            android:text="Desa Pujut, Lombok Tengah" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Kategori : " />
+
+        <TextView
+            android:id="@+id/row_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="italic"
+            android:text="Pantai / Laut" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black"
+        android:text="Deskripsi Umum " />
+
+    <TextView
+        android:id="@+id/row_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="italic"
+        android:text="Pantai Kuta Mandalika adalah salah satu Daerah prioritas yang akan dikembangkan oleh Kementrian Pariwisata Indonesia, pantai ini terletak di Desa Pujut, Lombok Tengah" />
+
+</LinearLayout>
